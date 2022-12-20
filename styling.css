@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    margin-top: 15px;
+  
+ 
+}
+    
+.header {
+   display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+ }
+ .logo{
+    margin-left: 200px;
+    color: white ;
+ }
+ .shop{
+    margin-left: 170px;
+    color: white;
+ }
+
+ .content{
+   
+    height:750px;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.content-bg1{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star4_37_outsidebeach_IMG_4152_1_desktop_1_0ae909e40a.jpg");
+
+    background-size: cover;
+}
+
+.content-bg2{
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/desktop_homepage_71a0b886e5.jpg");
+
+    background-size: cover;
+}
+
+.content-bg3{
+
+        background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/SWOT_Launch_Desktop_311b77d6b9.jpg");
+    
+        background-size: cover;
+    }
+.content-bg4{
+
+        background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Homepage_Desktop_5ebdeb0c6c.webp");
+    
+        background-size: cover;
+    }
+.content-bg5{
+
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/S20_Chopstick_Stack_Desktop_0c016b49ec.webp");
+
+    background-size: cover;
+}
+
+p{
+margin: 0;
+padding: 0;
+}
+.imgbody{
+   padding-top: 450px;
+   padding-left: 50px;
+}
+
+.smallhead{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.bighead{
+    color: white;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.imgButton1{
+    border: solid 1px white;
+    width:80px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.imgButton2:hover{
+    background: white;
+    color: black;
+}
+
+
+.imgButton1:hover{
+    background: white;
+    color: black;
+
+}
+
+.imgButton2{
+    border: solid 1px white;
+    width:95px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer ul li{
+    list-style-type: none;;
+    margin-left: 10px;
+    color: white;
+    font-weight: 100;
+    font-size: x-small;
+    
+    
+
+}
+footer{
+    background: black;
+    padding: 30px ;
+}
+
+
+
